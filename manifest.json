@@ -1,0 +1,17 @@
+{
+  "name": "Github Chinese Blocker",
+  "description": "중국어 레포좀 그만나와 and also I love Tiananmen",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "main.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [{
+    "matches": ["https://github.com/*"],
+    "js": ["main.js"],
+    "run_at": "document_end"
+  }]
+}
