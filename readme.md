@@ -2,6 +2,8 @@
 
 깃허브내에서 보기 싫은 언어에 해당하는 Repository 를 제외시켜주는 크롬 플러그인입니다.
 
+[<img src="https://s3.ap-northeast-2.amazonaws.com/6unu.net/github-chinese-blocker.gif">]
+
 ## 사용방법
 
 1. 해당 Repository 를 clone 합니다.
